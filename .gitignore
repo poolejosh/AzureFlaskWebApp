@@ -1,3 +1,5 @@
 env/
 .vscode/
 server/data.db
+server/src/__pycache__
+server/src/__pycache__/*
