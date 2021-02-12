@@ -1,4 +1,4 @@
-# Dockerized WebApp on Azure
+# Dockerized Flask WebApp on Azure
 
 This project is built from [Flask React Quickstart](https://github.com/qubitron/flask-webapp-quickstart)
 
@@ -22,7 +22,7 @@ $ pip install -r requirements.txt
 Then you can simply run the webapp locally with:
 
 ```bash
-py src/app.py
+py server/src/app.py
 ```
 
 The app can also be run locally in docker with:
