@@ -6,6 +6,14 @@ Authentication and structure was infulenced by [Handle User Accounts & Authentic
 
 ## [Deployed on Azure](http://homework1webapp.azurewebsites.net/)
 
+## About Me
+
+- Josh Poole
+    - Senior studying Computer Science at University of Cincinnati
+    - [poolejd@mail.uc.edu](mailto:poolejd@mail.uc.edu)
+
+## Local Testing/Development
+
 To get started, install python 3.7+ if not already installed. Then initialize a virtual python environment and activate it:
 
 ```bash
@@ -22,11 +30,11 @@ $ pip install -r server/requirements.txt
 Then you can simply run the webapp locally with:
 
 ```bash
-py server/src/app.py
+$ py server/src/app.py
 ```
 
 The app can also be run locally in docker with:
 
 ```bash
-docker-compose up
+$ docker-compose up
 ```
