@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Registration Page{% endblock %}
+{% block content %}
+<div class="container">
+    <!-- change to next page as described -->
+    <form action="#" method="POST">
+        <div class="mb-3">
+            <label for="inputUsername" class="form-label">Username</label>
+            <input type="text" class="form-control" id="inputUsername" name="username">
+        </div>
+        <div class="mb-3">
+            <label for="inputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword" name="password">
+        </div>
+        <div class="mb-3">
+            <label for="inputFirstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName" name="f_name">
+        </div>
+        <div class="mb-3">
+            <label for="inpitLastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inpitLastName" name="l_name">
+        </div>
+        <div class="mb-3">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" name="email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+{% endblock %}
