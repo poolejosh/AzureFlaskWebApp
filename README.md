@@ -16,7 +16,7 @@ $ env\scripts\activate
 Next, install required dependencies:
 
 ```bash
-$ pip install -r requirements.txt
+$ pip install -r server/requirements.txt
 ```
 
 Then you can simply run the webapp locally with:
