@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  server:
+    image: homework1-server
+    container_name: homework1-server
+    build:
+      context: ./server
+      target: server
+    volumes:
+      - ./server:/server
+    ports:
+      - 8081:8081
+    restart: on-failure

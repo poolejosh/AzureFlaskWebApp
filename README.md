@@ -4,6 +4,8 @@ This project is built from [Flask React Quickstart](https://github.com/qubitron/
 
 Authentication and structure was infulenced by [Handle User Accounts & Authentication in Flask with Flask-Login](https://hackersandslackers.com/flask-login-user-authentication/)
 
+## [Deployed on Azure](http://homework1webapp.azurewebsites.net/)
+
 To get started, install python 3.7+ if not already installed. Then initialize a virtual python environment and activate it:
 
 ```bash
@@ -21,4 +23,10 @@ Then you can simply run the webapp locally with:
 
 ```bash
 py src/app.py
+```
+
+The app can also be run locally in docker with:
+
+```bash
+docker-compose up
 ```
